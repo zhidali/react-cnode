@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+// import zhCN from 'antd/lib/locale-provider/zh_CN'
+// BrowserRouter history 路由
+// HashRouter 哈希 路由
 import {HashRouter} from 'react-router-dom'
 ReactDOM.render(
   (<HashRouter>

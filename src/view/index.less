@@ -1,0 +1,36 @@
+@import '~antd/dist/antd.css';
+
+.pageWrap {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  .main{
+    flex: 1;
+    width: 1080px;
+    margin: 0 auto;
+    .wrap-left{
+      border: 1px solid #ccc;
+      border-top: none; 
+      overflow: hidden;
+      .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+        border-right: 3px solid #1890ff; 
+        margin-right: -1px; 
+      }
+      .ant-menu-vertical{
+        border: none;
+      }
+      .list{
+        margin-bottom: -99999px; 
+        padding-bottom: 99999px; 
+      }
+      .content{
+        margin-bottom: -99999px; 
+        padding-bottom: 99999px; 
+        border-left: 1px solid #ccc; 
+      }
+    }
+  }
+  .ant-divider, .ant-divider-vertical{
+    margin: 0;
+  }
+}
