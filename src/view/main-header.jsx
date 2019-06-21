@@ -19,7 +19,7 @@ class MainHeader extends Component {
             <Divider type="vertical" className="headerDivider" />
             <Menu theme="dark" mode="horizontal" className="headNav">
               <Menu.Item>
-                <Link to="/index">
+                <Link to="/index/all">
                   <Icon type="home"/>
                 首页</Link>
               </Menu.Item>

@@ -5,6 +5,8 @@ import {
   Row, Col
 } from 'antd';
 import IndexMenu from './indexMenu'
+import IndexList from './router.jsx'
+import './index.less'
 class Index extends Component {
   render () {
     return (
@@ -13,7 +15,7 @@ class Index extends Component {
           <IndexMenu />
         </Col>
         <Col md={20} className="content">
-          111
+          <IndexList />
         </Col>
       </Row>
     )

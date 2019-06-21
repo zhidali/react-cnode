@@ -1,7 +1,7 @@
 import RouterIndex from './router/index.jsx'
 import MainHeader from './view/main-header.jsx'
 import MainFooter from './view/main-footer.jsx'
-import './view/index.less'
+import './view/app.less'
 import React, {
   Component
 } from 'react'

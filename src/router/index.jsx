@@ -13,16 +13,18 @@ class RouterIndex extends Component {
       <Switch>
         {/* {exact 严格匹配} */}
         <Route path="/" exact render={()=>(
-          <Redirect to="/index"></Redirect>
-        )}></Route>
-        <Route path="/index" component={Index}></Route>
+          <Redirect to="/index/all"></Redirect>
+        )}>
+        </Route>
         <Route path="/about" component={About}></Route>
         <Route path="/book" component={Book}></Route>
         <Route path="/details" component={Details}></Route>
         <Route path="/user" component={User}></Route>
+        <Route path="*" component={Index}></Route>
       </Switch>
      )
   }
 }
  
 export default RouterIndex;
+
