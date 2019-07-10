@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 // BrowserRouter history 路由
 // HashRouter 哈希 路由
 import {HashRouter} from 'react-router-dom'
-// 0000
+// 000000222
 ReactDOM.render(
   (<HashRouter>
     <App />
